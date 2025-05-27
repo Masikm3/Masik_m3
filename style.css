@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(117, 117, 117, 0.658);
+    text-align: center;
+}
+p {
+   color:white
+}
+h1 {
+    color:rgba(255, 14, 14, 0.593)
+ }
+ .header {
+    background-color: rgb(54, 54, 54);
+    max-width: 800px;
+    margin: 50px auto; 
+    padding: 20px;        
+ }
+ img {
+    border: solid epx white
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}  
+.planet {
+   background-color: rgb(170, 170, 170);
+   margin: 15px;
+   padding: 30px;
+}
+img {
+   border: solid 3px;
+   width: 100px;
+   height: 100px;
+   border-radius: 30px;
+}
+.planet:hover {
+   transform: scale(1.05);
+}
